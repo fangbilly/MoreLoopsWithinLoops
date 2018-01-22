@@ -416,7 +416,7 @@ def first_is_elsewhere_too(seq_seq):
     #   in this problem, as doing so would defeat the goal of providing
     #   practice at loops within loops (within loops within ...)
     # ------------------------------------------------------------------
-    if len(seq_seq[0])== 0:
+    if len(seq_seq[0]) == 0:
         for k in range(1, len(seq_seq)):
             if seq_seq[k] is None:
                 return True
@@ -424,9 +424,9 @@ def first_is_elsewhere_too(seq_seq):
         for k in range(len(seq_seq[0])):
             compare_list = seq_seq[0]
             for a in range(1, len(seq_seq)):
-                for b in range(len(seq_seq[a]))
-                    if seq_seq(a)
+                if compare_list[k] in seq_seq[a]:
                     return True
+    return False
 
 
 
