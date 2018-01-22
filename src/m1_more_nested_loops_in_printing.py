@@ -364,6 +364,7 @@ def numbers_increasing_forward(r, maxnum):
             print(" ", end="")
         print()
 
+
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
